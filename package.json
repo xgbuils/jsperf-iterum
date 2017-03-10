@@ -1,0 +1,33 @@
+{
+  "name": "iterum-jsperf",
+  "version": "0.1.0",
+  "description": "comparing performance of iterum releases and other libraries",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xgbuils/iterum-jsperf/"
+  },
+  "keywords": [
+    "iterum",
+    "jsperf"
+  ],
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "es-iter": "^1.0.0",
+    "iterum": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "browserify": "^14.1.0",
+    "webpack": "^2.2.1"
+  }
+}
