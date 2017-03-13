@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 module.exports = function(library) {
     const config = {
-        entry: ['babel-polyfill', `./index.js`],
+        entry: ['./index.js'],
         output: {
             path: './',
             filename: 'cdn.js',
