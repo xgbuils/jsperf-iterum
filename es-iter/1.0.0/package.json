@@ -1,0 +1,17 @@
+{
+  "name": "1.0.0",
+  "version": "1.0.0",
+  "description": "es-iter 1.0.0 cdn",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "node bundle.js"
+  },
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cdn-factory": "../../cdn-factory"
+  },
+  "dependencies": {
+    "es-iter": "^1.0.0"
+  }
+}
