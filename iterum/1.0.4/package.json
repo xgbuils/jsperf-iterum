@@ -1,0 +1,17 @@
+{
+  "name": "1.0.0",
+  "version": "1.0.0",
+  "description": "iterum 1.0.4 cdn",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "node bundle.js"
+  },
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cdn-factory": "../../cdn-factory"
+  },
+  "dependencies": {
+    "iterum": "^1.0.4"
+  }
+}
